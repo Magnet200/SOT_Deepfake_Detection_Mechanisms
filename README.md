@@ -11,12 +11,10 @@ A curated collection of GitHub repositories and papers covering state-of-the-art
 ## Threats posed by Generative Artificial Intelligence (GAI)
 The most pressing challenges associated with GAI is the proliferation of synthetic media, commonly known as DeepFakes. DeepFakes leverage generative models to manipulate visual, auditory, and textual content, posing substantial threats to digital security, democratic stability, and public trust.
 
-<div align="center">
-  <figure>
-    <img src="figs/Multi_modal_Identity_Image_edit.png" alt="Multi-modal Deepfake Detection" width="600">
-    <figcaption><strong>Figure 1:</strong> Illustration of a multi-stage pipeline in which a threat actor manipulates a source image using a text-conditional image generator, guided by identity-altering instructions, to produce a synthetic target image with modified personal attributes.</figcaption>
-  </figure>
-</div>
+<figure style="text-align: center;">
+  <img src="figs/Multi_modal_Identity_Image_edit.png" alt="Multi-modal Deepfake Detection" width="600">
+  <figcaption><strong>Figure 1:</strong> Illustration of a multi-stage pipeline in which a threat actor manipulates a source image using a text-conditional image generator, guided by identity-altering instructions, to produce a synthetic target image with modified personal attributes.</figcaption>
+</figure>
 
 ## Broad taxonomy of Deepfake generation and detection strategies
 This systematic review provides a comprehensive synthesis of deepfake detection methodologies, encompassing all primary modalities—image, video, audio, text, and multi-modal systems. It bridges critical gaps in the literature by integrating uni-modal and multi-modal approaches while offering a structured evaluation of their resilience to adversarial threats and their adaptability across diverse synthetic media contexts.
