@@ -10,20 +10,28 @@ A curated collection of GitHub repositories and papers covering state-of-the-art
 
 ## Threats posed by Generative Artificial Intelligence (GAI)
 The most pressing challenges associated with GAI is the proliferation of synthetic media, commonly known as DeepFakes. DeepFakes leverage generative models to manipulate visual, auditory, and textual content, posing substantial threats to digital security, democratic stability, and public trust.
-![Multi-modal Deepfake Detection](figs/Multi_modal_Identity_Image_edit.png)
+
+<figure>
+  <img src="figs/Multi_modal_Identity_Image_edit.png" alt="Multi-modal Deepfake Detection" width="600">
+  <figcaption><strong>Figure 1:</strong> Multi-modal approaches for detecting deepfake content across different modalities</figcaption>
+</figure>
+
 
 ## Broad taxonomy of Deepfake generation and detection strategies
 This systematic review provides a comprehensive synthesis of deepfake detection methodologies, encompassing all primary modalities—image, video, audio, text, and multi-modal systems. It bridges critical gaps in the literature by integrating uni-modal and multi-modal approaches while offering a structured evaluation of their resilience to adversarial threats and their adaptability across diverse synthetic media contexts.
 
-![Deepfake Taxonomy](figs/Deepfake_taxonomy.png)
+<figure>
+  <img src="figs/Deepfake_taxonomy.png" alt="Deepfake Taxonomy" width="600">
+  <figcaption><strong>Figure 2:</strong> Taxonomy of deepfake generation and detection strategies</figcaption>
+</figure>
 
 ## 📚 Repository Structure
 ### 1. 🧠 Uni-modal Deepfake Detection
 
 Detection methods that use **a single modality** such as image, video, audio, o
 #### 📷 Image-Based Detection
-- **LGrad**: [GitHub](https://github.com/chuangchuangtan/LGrad)
-- **Deepfake Detection without Deepfakes **: [GitHub](https://github.com/davide-coccomini/Deepfake-Detection-without-Deepfakes-Generalization-via-Synthetic-Frequency-Patterns-Injection.git)
+- **Learning on Gradients: Generalized Artifacts Representation for GAN-Generated Images Detection**: [GitHub](https://github.com/chuangchuangtan/LGrad)
+- **Deepfake Detection without Deepfakes**: [GitHub](https://github.com/davide-coccomini/Deepfake-Detection-without-Deepfakes-Generalization-via-Synthetic-Frequency-Patterns-Injection.git)
 - **FREQUENCY MASKING FOR UNIVERSAL DEEPFAKE DETECTION**: [GitHub](https://github.com/chandlerbing65nm/FakeImageDetection.git)
 - **ON THE EXPLOITATION OF DCT-TRACES IN THE GENERATIVE-AI DOMAIN**: [GitHub](https://github.com/opontorno/dcts_analysis_deepfakes.git)
 - **FreqNet-DeepfakeDetection (AAAI 2024)**: [GitHub](https://github.com/chuangchuangtan/FreqNet-DeepfakeDetection.git)
